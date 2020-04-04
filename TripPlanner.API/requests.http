@@ -1,0 +1,22 @@
+GET https://localhost:5001/api/Users HTTP/1.1
+
+##########################################################################
+
+POST https://localhost:5001/api/Users HTTP/1.1
+content-type: application/json
+
+{
+  "FirstName": "Elo",
+  "LastName": "asdsad",
+  "Email": "wojtek@gmail.com"
+}
+
+##########################################################################
+
+GET  https://localhost:5001/api/TodoItems HTTP/1.1
+
+
+#         public int Id { get; set; }     
+#         public string FirstName { get; set; }
+#         public string LastName { get; set; }
+#         public string Email { get; set; }
