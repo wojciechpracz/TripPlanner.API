@@ -144,7 +144,7 @@ namespace TripPlanner.Tests.RepositoryTests
                 var repo = new UserRepository(context);
 
                 //act
-                repo.DeleteUserAsync(userId);
+                await repo.DeleteUserAsync(userId);
 
                 //assert
                 Assert.Equal(2, context.Users.Count());
