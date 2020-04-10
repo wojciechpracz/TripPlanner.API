@@ -19,7 +19,6 @@ namespace TripPlanner.API.Repository
         public async Task<IEnumerable<User>> GetUsersAsync()
         {
             var users = await _context.Users.ToListAsync();
-            
             return users;
         }
     }

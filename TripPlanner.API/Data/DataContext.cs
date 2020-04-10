@@ -10,8 +10,9 @@ namespace TripPlanner.API.Data
             
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<TodoItem> TodoItems { get; set; }
+        public DataContext() {}
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<TodoItem> TodoItems { get; set; }
 
     }
 }
