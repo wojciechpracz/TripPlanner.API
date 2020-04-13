@@ -2,6 +2,10 @@ GET https://localhost:5001/api/Users HTTP/1.1
 
 ##########################################################################
 
+GET https://localhost:5001/api/Users/2 HTTP/1.1
+
+##########################################################################
+
 POST https://localhost:5001/api/Users HTTP/1.1
 content-type: application/json
 

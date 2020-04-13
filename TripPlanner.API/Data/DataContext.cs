@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TripPlanner.API.Models;
+using GenFu;
 
 namespace TripPlanner.API.Data
 {
